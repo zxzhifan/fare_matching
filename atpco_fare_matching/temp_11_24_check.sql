@@ -1,6 +1,7 @@
  #$$$$$$$$$$$$$$$$$$$            get fbr and addon
 delete from zz_ws_law.temp_tbl_fc_fare_map where map_type = 'R';
  insert into zz_ws_law.temp_tbl_fc_fare_map
+(doc_nbr_prime, doc_carr_nbr, trnsc_date, fc_cpn_nbr, 
 fcs, fcs_std, fc_orig, fc_orig_cntry, fc_dest, fc_dest_cntry, fc_carr_cd, fc_fbc, fc_mile_plus, fc_tkt_dsg, fc_pax_type, fc_curr_cd, fc_amt, fc_roe, fc_nuc_amt, jrny_dep_date, tkt_tour_cd,
 map_di_ind, map_type, map_code, map_disc_pct, spec_fare_id, spec_fare_ftnt, 
 cat25_r2_id, cat35_r2_id, 
